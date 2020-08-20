@@ -50,6 +50,7 @@ module.exports = {
     // 这段代码的意思是告诉webpack，入口文件是根目录下的/src的app.js文件，打包输出的文件位置为根目录下的dist目录中，注意到filename为js/[name].[hash:8].js,那么就会在dist目录下再建一个js文件夹，其中放了命名与入口文件命名一致，并带有hash值的打包之后的js文件
     // path.resolve: node的官方api，可以将路径或者路径片段解析成绝对路径
     // __dirname: 其总是指向被执行js文件的绝对路径，比如我们在webpack文件中访问__dirname，那么它的值就是在电脑系统上的绝对路径，
+
     entry: { // 入口文件
         app: resolve(PROJECT_PATH, './src/index.tsx'),
     },
