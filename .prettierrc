@@ -1,0 +1,10 @@
+{
+    "trailingComma": "all", // 对象的最后一个属性末尾添加分号
+    "tabWidth": 4, // 缩进大小
+    "semi": false,
+    "singleQuote": true, // 使用单引号
+    "endOfLine": "lf",
+    "printWidth": 120, // 单行代码最长字符长度，超过之后会自动格式化换行
+    "bracketSpacing": true, // 在对象的括号之间打印空格
+    "arrowParens": "always" // 箭头函数的参数无论几个都要用括号包裹
+}

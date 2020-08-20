@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>React+Typescript 快速开发脚手架</title>
+    <!-- 解决因为第三方而导致的打的包很大的问题。每次进入页面需要下载一个很大的文件，白屏的时间会变的很长，影响用户的体验，才用CDN链接形式 -->
+    <!-- 当用户第一次下载后，之后每次进入页面，根据浏览器的缓存策略，都不需要重新下载react和react-dom -->
+    <!-- webpack编译的时间减少，因为少了一步打包编译react和react-dom的工作，因此速度会提升 -->
+    <script crossorigin src="https://unpkg.com/react@16.13.1/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16.13.1/umd/react-dom.production.min.js"></script>
+</head>
+
+<body>
+    <div id="root"></div>
+</body>
+
+</html>
