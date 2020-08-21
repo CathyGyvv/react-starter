@@ -178,7 +178,7 @@ module.exports = {
                 configFile: resolve(PROJECT_PATH, './tsconfig.json'),
             },
         }),
-        IS_OPEN_HARD_SOURCE && new HardSourceWebpackPlugin(),
+        // IS_OPEN_HARD_SOURCE && new HardSourceWebpackPlugin(),
         // css样式的拆分
         !isDev && new MiniCssExtractPlugin({
             filename: 'css/[name].[contenthash:8].css',

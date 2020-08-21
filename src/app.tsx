@@ -10,7 +10,6 @@ function App() {
   let endTime = moment('2019-06-02').valueOf()
   if(startTime > endTime){
     console.log('时间不能早于2019年6月3日')
-
   }
   return (
     <div className='app'>
